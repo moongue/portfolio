@@ -7,11 +7,9 @@
     }
   }
 }
-
 .name {
   font-size: 40px;
 }
-
 .network-list {
   margin-top: 10px;
   &__link {
@@ -45,5 +43,50 @@
         }
       }
     }
+  }
+}
+// Content
+.information {
+  margin-top: 20px;
+}
+.more-inf {
+
+}
+.btn-show {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+  text-transform: uppercase;
+  border: 1px solid $grey-font;
+  padding: 7px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  .zmdi {
+    transition: all .2s ease-in-out;
+  }
+  &.active {
+    .zmdi {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.inf-list {
+  padding: 10px 20px;
+  display: none;
+  &_show {
+    display: block;
+  }
+  &__name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+  }
+  &__dop {
+    line-height: 1.2;
+    margin-top: 5px;
   }
 }
