@@ -1,0 +1,100 @@
+body {
+  font-family: 'Barlow', sans-serif;
+  background: #fff;
+  font-size: 18px;
+  color: #000;
+  line-height: 1.2;
+}
+
+input:focus,
+input:active,
+textarea:focus,
+textarea:active,
+button:focus,
+button:active,
+span:focus,
+span:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+select:focus,
+select:hover,
+option:hover,
+option:focus {
+  outline: none;
+}
+
+.wrapper {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header .wrap-img img {
+  border-radius: 50%;
+  max-width: 170px;
+}
+
+.name {
+  font-size: 40px;
+}
+
+.network-list {
+  margin-top: 10px;
+}
+
+.network-list__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.network-list__link .zmdi {
+  padding-right: 6px;
+  color: #000;
+}
+
+.network-list__link a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+.network-list__link a span {
+  position: relative;
+}
+
+.network-list__link a span:hover:before {
+  width: 100%;
+}
+
+.network-list__link a span:before {
+  content: '';
+  height: 1px;
+  background: #5a5a5a;
+  width: 0;
+  position: absolute;
+  bottom: -3px;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+/*# sourceMappingURL=maps/style.css.map */

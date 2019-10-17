@@ -1,0 +1,49 @@
+//Header
+.header {
+  .wrap-img {
+    img {
+      border-radius: 50%;
+      max-width: 170px;
+    }
+  }
+}
+
+.name {
+  font-size: 40px;
+}
+
+.network-list {
+  margin-top: 10px;
+  &__link {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    .zmdi {
+      padding-right: 6px;
+      color: $black-font;
+    }
+    a {
+      text-decoration: none;
+      color: $grey-font;
+      span {
+        position: relative;
+
+        &:hover {
+          &:before {
+            width: 100%;
+          }
+        }
+
+        &:before {
+          content: '';
+          height: 1px;
+          background: $grey-font;
+          width: 0;
+          position: absolute;
+          bottom: -3px;
+          transition: all .3s ease-in-out;
+        }
+      }
+    }
+  }
+}

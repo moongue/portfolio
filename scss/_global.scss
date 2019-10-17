@@ -1,5 +1,5 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Barlow', sans-serif;
   background: #fff;
   font-size: 18px;
   color: #000;
@@ -24,4 +24,14 @@ select:hover,
 option:hover,
 option:focus {
   outline: none;
+}
+.wrapper {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
