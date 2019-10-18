@@ -25,16 +25,23 @@ option:hover,
 option:focus {
   outline: none;
 }
+
 .wrapper {
-  max-width: 560px;
+  max-width: 860px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 10px 30px 0;
 }
+
 .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.xs-show {
+  display: none;
+}
+
 h2 {
   font-size: 32px;
   font-weight: 700;

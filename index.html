@@ -12,27 +12,32 @@
    <title>Portfolio</title>
 </head>
 <body>
-<div class="wrapper">
-   <header class="header">
+<header class="header">
+   <div class="bg-header"></div>
+   <div class="wrapper">
       <div class="row">
          <div class="wrap-img">
             <img src="images/face.jpg" alt="Face">
          </div>
          <div class="description">
+            <ul class="network-list">
+               <li class="network-list__link"><a href="https://github.com/moongue"><i
+                       class="zmdi zmdi-github"></i></a></li>
+               <li class="network-list__link"><a href="https://t.me/moonGue"><img src="images/telegram.svg"
+                                                                                  alt="Telegram"></a>
+               </li>
+               <li class="network-list__link"><a href="mailto:sasha.mojseenko2001@gmail.com"><img src="images/gmail.svg"
+                                                                                                  alt="Gmail"></a></li>
+            </ul>
             <h1 class="name">
                Moiseenko Olexandr
             </h1>
-            <ul class="network-list">
-               <li class="network-list__link"><a href="https://github.com/moongue"><i
-                       class="zmdi zmdi-github"></i><span>moongue</span></a></li>
-               <li class="network-list__link"><a href="https://t.me/moonGue"><i class="zmdi zmdi-mail-send"></i><span>moongue</span></a>
-               </li>
-               <li class="network-list__link"><a href="mailto:sasha.mojseenko2001@gmail.com"><i
-                       class="zmdi zmdi-email"></i><span>sasha.mojseenko2001@gmail.com</span></a></li>
-            </ul>
+
          </div>
       </div>
-   </header>
+   </div>
+</header>
+<div class="wrapper">
    <main class="content">
       <section class="information">
          <div class="more-inf">
@@ -71,7 +76,7 @@
       <section class="projects">
          <h2>Projects</h2>
          <div class="wrap-slider">
-            <div class="arrow">
+            <div class="arrow xs-hide">
                <div class="arrow__direction arrow__direction_prev">
                   <i class="zmdi zmdi-caret-left"></i>
                </div>
@@ -80,27 +85,47 @@
                </div>
             </div>
             <div class="slider">
-               <div class="slide">
-                  <div class="slide__description">
+               <div class="slide slide_active">
+                  <div class="btn-swipe-description yellow">show description<i class="zmdi zmdi-chevron-down"></i>
+                  </div>
+                  <div class="slide__description yellow">
                      <p class="slide__name">theyalow</p>
-                     <p class="slide__specification">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
-                        velit.</p>
+                     <p class="slide__about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque culpa
+                        cupiditate eos harum laborum non, quam ratione rerum sint.</p>
+                     <ul class="slide__specification-list">
+                        <li class="slide__specification-item">svg</li>
+                        <li class="slide__specification-item">input type='range'</li>
+                        <li class="slide__specification-item">videos</li>
+                        <li class="slide__specification-item">slider</li>
+                     </ul>
                      <a class="slide__btn" href="theyalow.html">Click on image <i class="zmdi zmdi-arrow-right"></i></a>
                   </div>
                   <a class="slide__img" href="theyalow.html">
                      <img src="images/theyalow.jpg" alt="theyalow">
                   </a>
+                  <div class="slide__footer yellow">Swipe to see other</div>
+
                </div>
                <div class="slide">
-                  <div class="slide__description">
+                  <div class="btn-swipe-description black">show description<i class="zmdi zmdi-chevron-down"></i>
+                  </div>
+                  <div class="slide__description black">
                      <p class="slide__name">repair-design-project</p>
-                     <p class="slide__specification">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
-                        velit.</p>
-                     <a class="slide__btn" href="repair-design-projects.html">Click on image <i class="zmdi zmdi-arrow-right"></i></a>
+                     <p class="slide__about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque culpa
+                        cupiditate eos harum laborum non, quam ratione rerum sint.</p>
+                     <ul class="slide__specification-list">
+                        <li class="slide__specification-item">svg</li>
+                        <li class="slide__specification-item">input type='range'</li>
+                        <li class="slide__specification-item">videos</li>
+                        <li class="slide__specification-item">slider</li>
+                     </ul>
+                     <a class="slide__btn" href="repair-design-projects.html">Click on image <i
+                             class="zmdi zmdi-arrow-right"></i></a>
                   </div>
                   <a class="slide__img" href="repair-design-projects.html">
-                     <img src="images/reapir-design-project.jpg" alt="reapir-design-project">
+                     <img src="images/repair-design-project.jpg" alt="reapir-design-project">
                   </a>
+                  <div class="slide__footer black">Swipe to see other</div>
                </div>
             </div>
          </div>
