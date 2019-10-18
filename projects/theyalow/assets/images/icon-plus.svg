@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.702;fill: #ffffff } 
+	</style>
+	<g id="section_1">
+		<g id="scroll_1">
+			<path id="Shape 11" class="shp0" d="M12 8L8 8L8 12L5 12L5 8L1 8L1 5L5 5L5 1L8 1L8 5L12 5L12 8Z" />
+		</g>
+	</g>
+</svg>
